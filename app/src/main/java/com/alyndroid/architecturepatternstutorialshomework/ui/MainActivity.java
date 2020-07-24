@@ -1,19 +1,15 @@
 package com.alyndroid.architecturepatternstutorialshomework.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.ViewModel;
-import androidx.lifecycle.ViewModelProviders;
-
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.alyndroid.architecturepatternstutorialshomework.R;
 import com.alyndroid.architecturepatternstutorialshomework.databinding.ActivityMainBinding;
 import com.alyndroid.architecturepatternstutorialshomework.pojo.DataBase;
-import com.alyndroid.architecturepatternstutorialshomework.pojo.NumberModel;
-
-import java.util.Observer;
 
 public class MainActivity extends AppCompatActivity implements SumView {
 
